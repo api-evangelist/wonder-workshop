@@ -1,8 +1,28 @@
 aid: wonder-workshop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wonder-workshop.png
 name: Wonder Workshop
-description: 'Wonder Workshop is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Wonder Workshop (GitHub org "playi", originally Play-i) is an educational
+  technology company that makes the Dash, Dot, and Cue programmable robots and
+  the Make Wonder K-8 coding and robotics learning platform, used by more than
+  40,000 schools across 65 countries. Its developer surface is a set of official
+  SDKs that give granular realtime control of the physical robots' sensors and
+  actuators over Bluetooth Low Energy: WonderPy (Python, on PyPI),
+  @wonderworkshop/wwjs (JavaScript, on npm), and an iOS/Android robot framework
+  shipped in the playground sample-app repository. There is no HTTP/cloud REST
+  API, OAuth, or webhook surface; integration happens locally over BLE. Backed
+  by GV.
 url: https://raw.githubusercontent.com/api-evangelist/wonder-workshop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Education
+- EdTech
+- Robotics
+- Coding
+- STEM
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://makewonder.com
+  url: https://www.makewonder.com
+- type: DeveloperPortal
+  url: https://developer.makewonder.com
+- type: Documentation
+  url: https://github.com/playi/wwjs-examples
+- type: GitHubOrganization
+  url: https://github.com/playi
+- type: SDKs
+  url: packages/wonder-workshop-packages.yml
+- type: Packages
+  url: packages/wonder-workshop-packages.yml
+- type: Support
+  url: https://help.makewonder.com/support/home
+- type: Blog
+  url: https://www.makewonder.com/blog/
+- type: Pricing
+  url: https://www.makewonder.com/pricing/
+- type: TermsOfService
+  url: https://makewonder.com/tos/
+- type: PrivacyPolicy
+  url: https://makewonder.com/privacy/
+- type: DomainSecurity
+  url: security/wonder-workshop-domain-security.yml
+- type: WellKnown
+  url: well-known/wonder-workshop-well-known.yml
+- type: LLMsTxt
+  url: llms/wonder-workshop-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

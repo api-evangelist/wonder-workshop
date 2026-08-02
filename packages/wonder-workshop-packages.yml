@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/playi
+notes: >-
+  Wonder Workshop (GitHub org "playi") ships device-control SDKs for the Dash,
+  Dot, and Cue robots. Communication is Bluetooth Low Energy to the physical
+  robot, not an HTTP/cloud REST API. Two official client libraries are published
+  to public package registries; the iOS/Android robot framework ships in the
+  "playground" sample-app repository rather than a registry.
+packages:
+  - language: python
+    registry: pypi
+    name: WonderPy
+    version: 0.1.0
+    url: https://pypi.org/project/WonderPy/
+    source: https://github.com/playi/WonderPy
+    install: pip install WonderPy
+    description: >-
+      Official public Python API for working with Wonder Workshop robots (Dash,
+      Dot, Cue) over Bluetooth LE, with fine-grained realtime access to commands
+      and sensors. Companion examples in playi/WonderPyExamples.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@wonderworkshop/wwjs"
+    version: 0.1.1
+    url: https://www.npmjs.com/package/@wonderworkshop/wwjs
+    source: https://github.com/playi/wwjs-examples
+    install: npm install @wonderworkshop/wwjs
+    license: CC-BY-NC-4.0
+    description: >-
+      Official JavaScript API for Wonder Workshop's Dash, Dot, and Cue robots
+      (connect/disconnect, event listeners, RGB/eyering/motion control).
+    official: true
+mobile_sdks:
+  - platform: ios-android
+    name: playground robot framework
+    source: https://github.com/playi/playground
+    license: MIT
+    description: >-
+      Sample iOS and Android application plus the robot framework demonstrating
+      discovery/connect, sending commands, reading sensors, and robot events.
+      Not published to a package registry; distributed in-repo. Docs:
+      Android/docs-android.md and iOS/docs-ios.md.
+    official: true

@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of makewonder.com /.well-known/*
+notes: >-
+  No /.well-known discovery documents are published. developer.makewonder.com
+  301-redirects to github.com/playi/WonderPy, so any 200 from that host under
+  -L is GitHub's own file, not a Wonder Workshop document, and is not counted.
+host: https://makewonder.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

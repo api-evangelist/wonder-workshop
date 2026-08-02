@@ -1,0 +1,28 @@
+# Wonder Workshop
+
+> Wonder Workshop (GitHub org "playi", originally Play-i) makes the Dash, Dot, and Cue educational robots and the Make Wonder K-8 coding platform, used by 40,000+ schools across 65 countries. Its developer surface is a set of official SDKs that control the physical robots over Bluetooth Low Energy — a Python API (WonderPy), a JavaScript API (@wonderworkshop/wwjs), and an iOS/Android robot framework — not an HTTP/cloud REST API. Backed by GV.
+
+## SDKs
+- [WonderPy (Python, PyPI)](https://pypi.org/project/WonderPy/): Official public Python API for Dash/Dot/Cue over BLE; realtime command + sensor access. `pip install WonderPy`
+- [WonderPy source](https://github.com/playi/WonderPy): Repository for the Python SDK.
+- [WonderPyExamples](https://github.com/playi/WonderPyExamples): Tutorials and examples for WonderPy.
+- [@wonderworkshop/wwjs (JavaScript, npm)](https://www.npmjs.com/package/@wonderworkshop/wwjs): Official JavaScript API for the robots. `npm install @wonderworkshop/wwjs`
+- [wwjs-examples](https://github.com/playi/wwjs-examples): JavaScript API documentation and examples (React + simple).
+- [playground](https://github.com/playi/playground): iOS and Android sample app + robot framework; per-platform docs in Android/docs-android.md and iOS/docs-ios.md (MIT).
+
+## Docs
+- [Developer entry (redirects to WonderPy)](https://developer.makewonder.com)
+- [PythonWonderDocs](https://github.com/playi/PythonWonderDocs): Generated Python API docs.
+- [GitHub organization (playi)](https://github.com/playi)
+
+## Products & Company
+- [Make Wonder platform](https://www.makewonder.com)
+- [Pricing](https://www.makewonder.com/pricing/)
+- [Help desk / support](https://help.makewonder.com/support/home)
+- [Device compatibility](https://www.makewonder.com/compatibility)
+- [Developer contact](mailto:developers@makewonder.com)
+
+## Legal
+- [Terms of Service](https://makewonder.com/tos/)
+- [Privacy Policy](https://makewonder.com/privacy/)
+- [Warranty](https://makewonder.com/warranty/)
