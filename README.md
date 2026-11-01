@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wonder Workshop is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment pipeline.
+Wonder Workshop (GitHub org "playi", originally Play-i) is an educational technology company that makes the Dash, Dot, and Cue programmable robots and the Make Wonder K-8 coding and robotics learning platform, used by more than 40,000 schools across 65 countries. Its developer surface is a set of official SDKs that give granular realtime control of the physical robots' sensors and actuators over Bluetooth Low Energy: WonderPy (Python, on PyPI), @wonderworkshop/wwjs (JavaScript, on npm), and an iOS/Android robot framework shipped in the playground sample-app repository. There is no HTTP/cloud REST API, OAuth, or webhook surface; integration happens locally over BLE. Backed by GV.
 
-Backed by: gv — http://makewonder.com
+**Areas:** Company · Frontier Tech · Education · EdTech · Robotics · Coding · STEM · SDK
+
+## Wonder Workshop on APIs.io
+
+Everything profiled for Wonder Workshop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wonder-workshop/](https://apis.io/providers/wonder-workshop/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wonder Workshop Domain Security](https://apis.io/security/wonder-workshop/wonder-workshop-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.makewonder.com)
+- [Documentation](https://github.com/playi/wwjs-examples)
+- [Pricing](https://www.makewonder.com/pricing/)
+- [Support](https://help.makewonder.com/support/home)
+- [Blog](https://www.makewonder.com/blog/)
+- [Terms of service](https://makewonder.com/tos/)
+- [Privacy policy](https://makewonder.com/privacy/)
+- [GitHub](https://github.com/playi)
+
+## API Evangelist rating
+
+**Kin Score 16.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wonder-workshop/](https://apis.io/providers/wonder-workshop/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wonder Workshop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wonder-workshop/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
